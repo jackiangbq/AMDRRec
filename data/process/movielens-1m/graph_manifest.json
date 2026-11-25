@@ -1,0 +1,77 @@
+{
+  "algorithm_version": "amdrrec-training-only-graphs-v1",
+  "dataset": "movielens-1m",
+  "train_file": {
+    "path": "D\\AMDRRec\\data\\process\\movielens-1m\\train.txt",
+    "sha256": "9c1d238071bffbd9fe4b9d1b1cfff7cd9131f5359e91e6b0402742364744578a",
+    "interactions": 805473
+  },
+  "shape": {
+    "users": 6040,
+    "items": 3952
+  },
+  "static_graphs": {
+    "uou_processed.npz": {
+      "source_sha256": "38e77ea71b6ce35bfa53cfc73f74096a1302e4c8aef60a0193a7592ae4a05d4a",
+      "output_sha256": "38e77ea71b6ce35bfa53cfc73f74096a1302e4c8aef60a0193a7592ae4a05d4a"
+    },
+    "uau_processed.npz": {
+      "source_sha256": "b3e05bc2d0fea8f3103e99c97b60fc1779181ab1efb7c734e6491556df76280d",
+      "output_sha256": "b3e05bc2d0fea8f3103e99c97b60fc1779181ab1efb7c734e6491556df76280d"
+    },
+    "mgm_processed.npz": {
+      "source_sha256": "ad8d80d22d67fe0cbdf43ae2389581e852ef6a0d6c333449eff33a408fdd7e2e",
+      "output_sha256": "ad8d80d22d67fe0cbdf43ae2389581e852ef6a0d6c333449eff33a408fdd7e2e"
+    }
+  },
+  "interaction_derived_graphs": {
+    "umu_processed.npz": {
+      "output_sha256": "796604b28b00bd4fc3921f82fc815bb87b056208555eb7ecda6df497883e970f",
+      "shape": [
+        6040,
+        6040
+      ],
+      "diagnostics": {
+        "edges": 1208000,
+        "self_loops": 6040
+      }
+    },
+    "mum_processed.npz": {
+      "output_sha256": "080a7603e1793731c8aaed53e6fa9f18ff0d7532017590ac88be5b6aecb2ba3e",
+      "shape": [
+        3952,
+        3952
+      ],
+      "diagnostics": {
+        "rows_without_candidates": 246,
+        "rows_below_top_k": 64,
+        "edges": 732902,
+        "self_loops": 3633
+      }
+    },
+    "mm_processed.npz": {
+      "output_sha256": "b83a812a0f3a5be27f2c9929844129e9a54623f041b071af24ced10126985e39",
+      "shape": [
+        3952,
+        3952
+      ],
+      "diagnostics": {
+        "rows_without_candidates": 246,
+        "rows_below_top_k": 64,
+        "edges": 732838,
+        "self_loops": 0
+      }
+    },
+    "pre_A.npz": {
+      "output_sha256": "ce4c152c00530183f121816fa36b3ecf35b2de2c1486bda2df4ecc0ae3b39dcb",
+      "shape": [
+        9992,
+        9992
+      ],
+      "diagnostics": {
+        "edges": 1610946,
+        "self_loops": 0
+      }
+    }
+  }
+}

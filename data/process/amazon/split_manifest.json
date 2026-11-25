@@ -1,0 +1,56 @@
+{
+  "algorithm_version": "amdrrec-user-aware-8-1-1-v1",
+  "seed": 2024,
+  "source_directory": "D\\AMDRRec\\data\\amazon",
+  "source_files": {
+    "train.txt": "cb438606a68d52e05c6432a3a41869e0cc530b23cfb3837432204cc71daf25f7",
+    "test.txt": "18769ab559be243f2107e801794db598e262ea918d584606ee2436dc965e3a17"
+  },
+  "total_users": 6170,
+  "total_interactions": 195791,
+  "users_by_total_count": {
+    "eq_1": 0,
+    "eq_2": 0,
+    "ge_3": 6170
+  },
+  "splits": {
+    "train": {
+      "users_with_interactions": 6170,
+      "interactions": 161512,
+      "unique_items": 2753
+    },
+    "validation": {
+      "users_with_interactions": 6169,
+      "interactions": 17139,
+      "unique_items": 2608
+    },
+    "test": {
+      "users_with_interactions": 6170,
+      "interactions": 17140,
+      "unique_items": 2653
+    }
+  },
+  "actual_interaction_ratios": {
+    "train": 0.82492045,
+    "validation": 0.08753722,
+    "test": 0.08754233
+  },
+  "item_coverage_repairs": [
+    {
+      "item": 2751,
+      "from": "validation",
+      "user": 4838
+    }
+  ],
+  "invariants": {
+    "partition_exact": true,
+    "pairwise_disjoint": true,
+    "all_users_have_training_interactions": true,
+    "all_held_out_items_seen_in_training": true
+  },
+  "output_files": {
+    "train.txt": "5a0f39e7cf0a73db796434070e6890ca80a9b6edf91fbea39c621fbf4327be30",
+    "validation.txt": "41681008df3ae812e07c733faea7b1a18d180e9bf28aee48a2f0d73478f7ec56",
+    "test.txt": "69d5875cc0175b569b803c4ea14887fe6fb171f2afec15d94233cd152748bad2"
+  }
+}

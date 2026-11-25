@@ -1,0 +1,2686 @@
+{
+  "algorithm_version": "amdrrec-user-aware-8-1-1-v1",
+  "seed": 2024,
+  "source_directory": "D\\AMDRRec\\data\\yelp",
+  "source_files": {
+    "train.txt": "a7bf9f6ba376974c8adcbbd80dcfbbb2c892a72216337774f40b64d9f164288e",
+    "test.txt": "113349f03edefde9907cc68d2263405f46355372ba5f51e05de741d7d6bc8ddc"
+  },
+  "total_users": 16239,
+  "total_interactions": 198397,
+  "users_by_total_count": {
+    "eq_1": 5471,
+    "eq_2": 2235,
+    "ge_3": 8533
+  },
+  "splits": {
+    "train": {
+      "users_with_interactions": 16239,
+      "interactions": 158877,
+      "unique_items": 14284
+    },
+    "validation": {
+      "users_with_interactions": 8452,
+      "interactions": 18614,
+      "unique_items": 5902
+    },
+    "test": {
+      "users_with_interactions": 10695,
+      "interactions": 20906,
+      "unique_items": 6196
+    }
+  },
+  "actual_interaction_ratios": {
+    "train": 0.80080344,
+    "validation": 0.09382198,
+    "test": 0.10537458
+  },
+  "item_coverage_repairs": [
+    {
+      "item": 10,
+      "from": "test",
+      "user": 1831
+    },
+    {
+      "item": 76,
+      "from": "test",
+      "user": 5215
+    },
+    {
+      "item": 129,
+      "from": "validation",
+      "user": 13287
+    },
+    {
+      "item": 137,
+      "from": "test",
+      "user": 6596
+    },
+    {
+      "item": 153,
+      "from": "validation",
+      "user": 6021
+    },
+    {
+      "item": 158,
+      "from": "test",
+      "user": 8496
+    },
+    {
+      "item": 167,
+      "from": "test",
+      "user": 4981
+    },
+    {
+      "item": 238,
+      "from": "test",
+      "user": 10988
+    },
+    {
+      "item": 256,
+      "from": "validation",
+      "user": 6755
+    },
+    {
+      "item": 278,
+      "from": "validation",
+      "user": 8196
+    },
+    {
+      "item": 279,
+      "from": "test",
+      "user": 8785
+    },
+    {
+      "item": 301,
+      "from": "test",
+      "user": 2763
+    },
+    {
+      "item": 390,
+      "from": "test",
+      "user": 2945
+    },
+    {
+      "item": 541,
+      "from": "validation",
+      "user": 7699
+    },
+    {
+      "item": 550,
+      "from": "validation",
+      "user": 5472
+    },
+    {
+      "item": 611,
+      "from": "test",
+      "user": 8960
+    },
+    {
+      "item": 626,
+      "from": "validation",
+      "user": 261
+    },
+    {
+      "item": 675,
+      "from": "validation",
+      "user": 887
+    },
+    {
+      "item": 685,
+      "from": "validation",
+      "user": 6773
+    },
+    {
+      "item": 700,
+      "from": "validation",
+      "user": 10869
+    },
+    {
+      "item": 705,
+      "from": "test",
+      "user": 6740
+    },
+    {
+      "item": 730,
+      "from": "validation",
+      "user": 5494
+    },
+    {
+      "item": 800,
+      "from": "validation",
+      "user": 12984
+    },
+    {
+      "item": 870,
+      "from": "validation",
+      "user": 3213
+    },
+    {
+      "item": 880,
+      "from": "validation",
+      "user": 5716
+    },
+    {
+      "item": 887,
+      "from": "validation",
+      "user": 7482
+    },
+    {
+      "item": 888,
+      "from": "test",
+      "user": 5206
+    },
+    {
+      "item": 903,
+      "from": "validation",
+      "user": 4485
+    },
+    {
+      "item": 936,
+      "from": "validation",
+      "user": 565
+    },
+    {
+      "item": 994,
+      "from": "validation",
+      "user": 1025
+    },
+    {
+      "item": 1048,
+      "from": "test",
+      "user": 6021
+    },
+    {
+      "item": 1071,
+      "from": "test",
+      "user": 15136
+    },
+    {
+      "item": 1072,
+      "from": "validation",
+      "user": 12788
+    },
+    {
+      "item": 1085,
+      "from": "validation",
+      "user": 14053
+    },
+    {
+      "item": 1176,
+      "from": "validation",
+      "user": 9310
+    },
+    {
+      "item": 1180,
+      "from": "validation",
+      "user": 1353
+    },
+    {
+      "item": 1221,
+      "from": "test",
+      "user": 191
+    },
+    {
+      "item": 1233,
+      "from": "test",
+      "user": 11733
+    },
+    {
+      "item": 1247,
+      "from": "validation",
+      "user": 2047
+    },
+    {
+      "item": 1279,
+      "from": "validation",
+      "user": 3911
+    },
+    {
+      "item": 1286,
+      "from": "test",
+      "user": 12738
+    },
+    {
+      "item": 1296,
+      "from": "test",
+      "user": 4658
+    },
+    {
+      "item": 1313,
+      "from": "validation",
+      "user": 6770
+    },
+    {
+      "item": 1318,
+      "from": "validation",
+      "user": 13147
+    },
+    {
+      "item": 1341,
+      "from": "validation",
+      "user": 16168
+    },
+    {
+      "item": 1346,
+      "from": "test",
+      "user": 12298
+    },
+    {
+      "item": 1350,
+      "from": "validation",
+      "user": 15061
+    },
+    {
+      "item": 1397,
+      "from": "validation",
+      "user": 14202
+    },
+    {
+      "item": 1409,
+      "from": "validation",
+      "user": 11201
+    },
+    {
+      "item": 1412,
+      "from": "test",
+      "user": 1185
+    },
+    {
+      "item": 1427,
+      "from": "test",
+      "user": 13577
+    },
+    {
+      "item": 1445,
+      "from": "test",
+      "user": 14968
+    },
+    {
+      "item": 1473,
+      "from": "validation",
+      "user": 10704
+    },
+    {
+      "item": 1559,
+      "from": "validation",
+      "user": 13794
+    },
+    {
+      "item": 1572,
+      "from": "validation",
+      "user": 15937
+    },
+    {
+      "item": 1595,
+      "from": "test",
+      "user": 3948
+    },
+    {
+      "item": 1611,
+      "from": "validation",
+      "user": 5016
+    },
+    {
+      "item": 1635,
+      "from": "validation",
+      "user": 10884
+    },
+    {
+      "item": 1674,
+      "from": "validation",
+      "user": 8232
+    },
+    {
+      "item": 1728,
+      "from": "test",
+      "user": 13911
+    },
+    {
+      "item": 1732,
+      "from": "test",
+      "user": 2985
+    },
+    {
+      "item": 1743,
+      "from": "validation",
+      "user": 12465
+    },
+    {
+      "item": 1760,
+      "from": "test",
+      "user": 5706
+    },
+    {
+      "item": 1764,
+      "from": "validation",
+      "user": 14685
+    },
+    {
+      "item": 1788,
+      "from": "validation",
+      "user": 13262
+    },
+    {
+      "item": 1811,
+      "from": "test",
+      "user": 16063
+    },
+    {
+      "item": 1815,
+      "from": "test",
+      "user": 572
+    },
+    {
+      "item": 1821,
+      "from": "test",
+      "user": 10521
+    },
+    {
+      "item": 1892,
+      "from": "test",
+      "user": 10984
+    },
+    {
+      "item": 1895,
+      "from": "validation",
+      "user": 1237
+    },
+    {
+      "item": 1897,
+      "from": "validation",
+      "user": 1429
+    },
+    {
+      "item": 1901,
+      "from": "validation",
+      "user": 6055
+    },
+    {
+      "item": 1913,
+      "from": "test",
+      "user": 9101
+    },
+    {
+      "item": 1918,
+      "from": "test",
+      "user": 8344
+    },
+    {
+      "item": 1924,
+      "from": "test",
+      "user": 6960
+    },
+    {
+      "item": 1929,
+      "from": "validation",
+      "user": 2977
+    },
+    {
+      "item": 1947,
+      "from": "validation",
+      "user": 2957
+    },
+    {
+      "item": 1960,
+      "from": "test",
+      "user": 10625
+    },
+    {
+      "item": 1991,
+      "from": "validation",
+      "user": 16133
+    },
+    {
+      "item": 2003,
+      "from": "validation",
+      "user": 11970
+    },
+    {
+      "item": 2166,
+      "from": "validation",
+      "user": 4660
+    },
+    {
+      "item": 2181,
+      "from": "test",
+      "user": 11918
+    },
+    {
+      "item": 2239,
+      "from": "validation",
+      "user": 5068
+    },
+    {
+      "item": 2270,
+      "from": "validation",
+      "user": 4565
+    },
+    {
+      "item": 2325,
+      "from": "validation",
+      "user": 2447
+    },
+    {
+      "item": 2328,
+      "from": "validation",
+      "user": 349
+    },
+    {
+      "item": 2343,
+      "from": "test",
+      "user": 1326
+    },
+    {
+      "item": 2349,
+      "from": "validation",
+      "user": 1260
+    },
+    {
+      "item": 2364,
+      "from": "test",
+      "user": 11389
+    },
+    {
+      "item": 2376,
+      "from": "validation",
+      "user": 13899
+    },
+    {
+      "item": 2398,
+      "from": "test",
+      "user": 7919
+    },
+    {
+      "item": 2408,
+      "from": "test",
+      "user": 3108
+    },
+    {
+      "item": 2449,
+      "from": "test",
+      "user": 10622
+    },
+    {
+      "item": 2453,
+      "from": "validation",
+      "user": 3179
+    },
+    {
+      "item": 2492,
+      "from": "test",
+      "user": 13088
+    },
+    {
+      "item": 2510,
+      "from": "validation",
+      "user": 5862
+    },
+    {
+      "item": 2528,
+      "from": "validation",
+      "user": 2259
+    },
+    {
+      "item": 2578,
+      "from": "test",
+      "user": 15127
+    },
+    {
+      "item": 2580,
+      "from": "test",
+      "user": 12747
+    },
+    {
+      "item": 2610,
+      "from": "test",
+      "user": 9222
+    },
+    {
+      "item": 2622,
+      "from": "validation",
+      "user": 9294
+    },
+    {
+      "item": 2640,
+      "from": "test",
+      "user": 13541
+    },
+    {
+      "item": 2655,
+      "from": "test",
+      "user": 15619
+    },
+    {
+      "item": 2713,
+      "from": "validation",
+      "user": 13450
+    },
+    {
+      "item": 2790,
+      "from": "validation",
+      "user": 7001
+    },
+    {
+      "item": 2792,
+      "from": "validation",
+      "user": 10411
+    },
+    {
+      "item": 2886,
+      "from": "test",
+      "user": 4000
+    },
+    {
+      "item": 2894,
+      "from": "validation",
+      "user": 9851
+    },
+    {
+      "item": 2933,
+      "from": "test",
+      "user": 12575
+    },
+    {
+      "item": 2969,
+      "from": "validation",
+      "user": 14975
+    },
+    {
+      "item": 2999,
+      "from": "test",
+      "user": 13582
+    },
+    {
+      "item": 3040,
+      "from": "test",
+      "user": 15756
+    },
+    {
+      "item": 3041,
+      "from": "validation",
+      "user": 152
+    },
+    {
+      "item": 3061,
+      "from": "validation",
+      "user": 11496
+    },
+    {
+      "item": 3071,
+      "from": "test",
+      "user": 2048
+    },
+    {
+      "item": 3109,
+      "from": "test",
+      "user": 11969
+    },
+    {
+      "item": 3112,
+      "from": "validation",
+      "user": 11918
+    },
+    {
+      "item": 3182,
+      "from": "test",
+      "user": 4349
+    },
+    {
+      "item": 3190,
+      "from": "test",
+      "user": 14527
+    },
+    {
+      "item": 3228,
+      "from": "test",
+      "user": 5386
+    },
+    {
+      "item": 3234,
+      "from": "validation",
+      "user": 11675
+    },
+    {
+      "item": 3261,
+      "from": "test",
+      "user": 9217
+    },
+    {
+      "item": 3281,
+      "from": "validation",
+      "user": 4355
+    },
+    {
+      "item": 3319,
+      "from": "test",
+      "user": 9541
+    },
+    {
+      "item": 3324,
+      "from": "test",
+      "user": 16195
+    },
+    {
+      "item": 3356,
+      "from": "validation",
+      "user": 1944
+    },
+    {
+      "item": 3412,
+      "from": "validation",
+      "user": 4531
+    },
+    {
+      "item": 3421,
+      "from": "test",
+      "user": 10585
+    },
+    {
+      "item": 3456,
+      "from": "validation",
+      "user": 572
+    },
+    {
+      "item": 3483,
+      "from": "test",
+      "user": 5671
+    },
+    {
+      "item": 3492,
+      "from": "test",
+      "user": 12204
+    },
+    {
+      "item": 3509,
+      "from": "validation",
+      "user": 16162
+    },
+    {
+      "item": 3538,
+      "from": "test",
+      "user": 13523
+    },
+    {
+      "item": 3542,
+      "from": "validation",
+      "user": 4995
+    },
+    {
+      "item": 3564,
+      "from": "test",
+      "user": 7919
+    },
+    {
+      "item": 3623,
+      "from": "validation",
+      "user": 418
+    },
+    {
+      "item": 3645,
+      "from": "test",
+      "user": 2282
+    },
+    {
+      "item": 3673,
+      "from": "validation",
+      "user": 5101
+    },
+    {
+      "item": 3690,
+      "from": "test",
+      "user": 9375
+    },
+    {
+      "item": 3697,
+      "from": "validation",
+      "user": 14834
+    },
+    {
+      "item": 3768,
+      "from": "validation",
+      "user": 6950
+    },
+    {
+      "item": 3777,
+      "from": "validation",
+      "user": 2646
+    },
+    {
+      "item": 3888,
+      "from": "validation",
+      "user": 10888
+    },
+    {
+      "item": 3942,
+      "from": "validation",
+      "user": 112
+    },
+    {
+      "item": 3961,
+      "from": "validation",
+      "user": 3905
+    },
+    {
+      "item": 3977,
+      "from": "test",
+      "user": 2763
+    },
+    {
+      "item": 4012,
+      "from": "validation",
+      "user": 12659
+    },
+    {
+      "item": 4015,
+      "from": "test",
+      "user": 9122
+    },
+    {
+      "item": 4019,
+      "from": "test",
+      "user": 1802
+    },
+    {
+      "item": 4025,
+      "from": "validation",
+      "user": 3097
+    },
+    {
+      "item": 4153,
+      "from": "test",
+      "user": 6993
+    },
+    {
+      "item": 4172,
+      "from": "validation",
+      "user": 3691
+    },
+    {
+      "item": 4175,
+      "from": "test",
+      "user": 11643
+    },
+    {
+      "item": 4193,
+      "from": "test",
+      "user": 366
+    },
+    {
+      "item": 4282,
+      "from": "validation",
+      "user": 11042
+    },
+    {
+      "item": 4306,
+      "from": "test",
+      "user": 1470
+    },
+    {
+      "item": 4332,
+      "from": "validation",
+      "user": 2646
+    },
+    {
+      "item": 4356,
+      "from": "test",
+      "user": 9695
+    },
+    {
+      "item": 4371,
+      "from": "validation",
+      "user": 2839
+    },
+    {
+      "item": 4374,
+      "from": "test",
+      "user": 6832
+    },
+    {
+      "item": 4391,
+      "from": "test",
+      "user": 2771
+    },
+    {
+      "item": 4398,
+      "from": "test",
+      "user": 16032
+    },
+    {
+      "item": 4449,
+      "from": "test",
+      "user": 1075
+    },
+    {
+      "item": 4456,
+      "from": "validation",
+      "user": 8389
+    },
+    {
+      "item": 4467,
+      "from": "validation",
+      "user": 15514
+    },
+    {
+      "item": 4516,
+      "from": "test",
+      "user": 13851
+    },
+    {
+      "item": 4534,
+      "from": "validation",
+      "user": 3724
+    },
+    {
+      "item": 4570,
+      "from": "validation",
+      "user": 10843
+    },
+    {
+      "item": 4611,
+      "from": "test",
+      "user": 308
+    },
+    {
+      "item": 4631,
+      "from": "validation",
+      "user": 9776
+    },
+    {
+      "item": 4652,
+      "from": "test",
+      "user": 5592
+    },
+    {
+      "item": 4654,
+      "from": "validation",
+      "user": 9793
+    },
+    {
+      "item": 4663,
+      "from": "test",
+      "user": 14511
+    },
+    {
+      "item": 4664,
+      "from": "validation",
+      "user": 1454
+    },
+    {
+      "item": 4665,
+      "from": "validation",
+      "user": 8771
+    },
+    {
+      "item": 4675,
+      "from": "validation",
+      "user": 8382
+    },
+    {
+      "item": 4689,
+      "from": "validation",
+      "user": 6341
+    },
+    {
+      "item": 4692,
+      "from": "test",
+      "user": 8196
+    },
+    {
+      "item": 4742,
+      "from": "test",
+      "user": 10639
+    },
+    {
+      "item": 4769,
+      "from": "test",
+      "user": 4462
+    },
+    {
+      "item": 4811,
+      "from": "validation",
+      "user": 10202
+    },
+    {
+      "item": 4823,
+      "from": "validation",
+      "user": 8366
+    },
+    {
+      "item": 4832,
+      "from": "validation",
+      "user": 13399
+    },
+    {
+      "item": 4844,
+      "from": "validation",
+      "user": 10590
+    },
+    {
+      "item": 4902,
+      "from": "validation",
+      "user": 14968
+    },
+    {
+      "item": 4956,
+      "from": "validation",
+      "user": 13089
+    },
+    {
+      "item": 5007,
+      "from": "test",
+      "user": 12159
+    },
+    {
+      "item": 5036,
+      "from": "validation",
+      "user": 11968
+    },
+    {
+      "item": 5073,
+      "from": "test",
+      "user": 3392
+    },
+    {
+      "item": 5078,
+      "from": "validation",
+      "user": 15061
+    },
+    {
+      "item": 5093,
+      "from": "test",
+      "user": 6480
+    },
+    {
+      "item": 5102,
+      "from": "validation",
+      "user": 796
+    },
+    {
+      "item": 5276,
+      "from": "test",
+      "user": 15072
+    },
+    {
+      "item": 5306,
+      "from": "test",
+      "user": 2162
+    },
+    {
+      "item": 5330,
+      "from": "test",
+      "user": 9359
+    },
+    {
+      "item": 5340,
+      "from": "validation",
+      "user": 2950
+    },
+    {
+      "item": 5381,
+      "from": "validation",
+      "user": 10411
+    },
+    {
+      "item": 5392,
+      "from": "validation",
+      "user": 3023
+    },
+    {
+      "item": 5422,
+      "from": "validation",
+      "user": 13262
+    },
+    {
+      "item": 5486,
+      "from": "test",
+      "user": 4085
+    },
+    {
+      "item": 5499,
+      "from": "test",
+      "user": 10870
+    },
+    {
+      "item": 5509,
+      "from": "test",
+      "user": 12223
+    },
+    {
+      "item": 5512,
+      "from": "test",
+      "user": 14363
+    },
+    {
+      "item": 5540,
+      "from": "test",
+      "user": 1702
+    },
+    {
+      "item": 5563,
+      "from": "validation",
+      "user": 5437
+    },
+    {
+      "item": 5661,
+      "from": "test",
+      "user": 1593
+    },
+    {
+      "item": 5670,
+      "from": "test",
+      "user": 2447
+    },
+    {
+      "item": 5732,
+      "from": "validation",
+      "user": 11416
+    },
+    {
+      "item": 5794,
+      "from": "test",
+      "user": 14880
+    },
+    {
+      "item": 5843,
+      "from": "test",
+      "user": 4109
+    },
+    {
+      "item": 5860,
+      "from": "test",
+      "user": 13582
+    },
+    {
+      "item": 5872,
+      "from": "test",
+      "user": 7996
+    },
+    {
+      "item": 5919,
+      "from": "test",
+      "user": 3167
+    },
+    {
+      "item": 5956,
+      "from": "test",
+      "user": 12788
+    },
+    {
+      "item": 5960,
+      "from": "validation",
+      "user": 6553
+    },
+    {
+      "item": 5978,
+      "from": "test",
+      "user": 15335
+    },
+    {
+      "item": 6014,
+      "from": "validation",
+      "user": 1776
+    },
+    {
+      "item": 6018,
+      "from": "validation",
+      "user": 11733
+    },
+    {
+      "item": 6024,
+      "from": "test",
+      "user": 6338
+    },
+    {
+      "item": 6047,
+      "from": "validation",
+      "user": 12972
+    },
+    {
+      "item": 6086,
+      "from": "validation",
+      "user": 11918
+    },
+    {
+      "item": 6096,
+      "from": "validation",
+      "user": 11016
+    },
+    {
+      "item": 6098,
+      "from": "validation",
+      "user": 2968
+    },
+    {
+      "item": 6115,
+      "from": "validation",
+      "user": 7596
+    },
+    {
+      "item": 6129,
+      "from": "test",
+      "user": 12841
+    },
+    {
+      "item": 6145,
+      "from": "validation",
+      "user": 8496
+    },
+    {
+      "item": 6242,
+      "from": "test",
+      "user": 13483
+    },
+    {
+      "item": 6272,
+      "from": "test",
+      "user": 9100
+    },
+    {
+      "item": 6278,
+      "from": "validation",
+      "user": 15172
+    },
+    {
+      "item": 6280,
+      "from": "validation",
+      "user": 1040
+    },
+    {
+      "item": 6319,
+      "from": "test",
+      "user": 9779
+    },
+    {
+      "item": 6322,
+      "from": "validation",
+      "user": 10600
+    },
+    {
+      "item": 6323,
+      "from": "test",
+      "user": 3356
+    },
+    {
+      "item": 6348,
+      "from": "validation",
+      "user": 9541
+    },
+    {
+      "item": 6359,
+      "from": "validation",
+      "user": 12417
+    },
+    {
+      "item": 6384,
+      "from": "validation",
+      "user": 14880
+    },
+    {
+      "item": 6427,
+      "from": "test",
+      "user": 7793
+    },
+    {
+      "item": 6478,
+      "from": "validation",
+      "user": 4121
+    },
+    {
+      "item": 6488,
+      "from": "validation",
+      "user": 3311
+    },
+    {
+      "item": 6510,
+      "from": "validation",
+      "user": 10599
+    },
+    {
+      "item": 6516,
+      "from": "validation",
+      "user": 12230
+    },
+    {
+      "item": 6556,
+      "from": "test",
+      "user": 7724
+    },
+    {
+      "item": 6628,
+      "from": "validation",
+      "user": 13751
+    },
+    {
+      "item": 6632,
+      "from": "validation",
+      "user": 4961
+    },
+    {
+      "item": 6638,
+      "from": "test",
+      "user": 2321
+    },
+    {
+      "item": 6702,
+      "from": "validation",
+      "user": 15256
+    },
+    {
+      "item": 6708,
+      "from": "test",
+      "user": 310
+    },
+    {
+      "item": 6719,
+      "from": "test",
+      "user": 531
+    },
+    {
+      "item": 6722,
+      "from": "test",
+      "user": 7654
+    },
+    {
+      "item": 6723,
+      "from": "validation",
+      "user": 72
+    },
+    {
+      "item": 6733,
+      "from": "validation",
+      "user": 10273
+    },
+    {
+      "item": 6738,
+      "from": "validation",
+      "user": 11890
+    },
+    {
+      "item": 6753,
+      "from": "validation",
+      "user": 5739
+    },
+    {
+      "item": 6772,
+      "from": "validation",
+      "user": 15623
+    },
+    {
+      "item": 6781,
+      "from": "test",
+      "user": 11062
+    },
+    {
+      "item": 6811,
+      "from": "validation",
+      "user": 11069
+    },
+    {
+      "item": 6856,
+      "from": "validation",
+      "user": 3334
+    },
+    {
+      "item": 6865,
+      "from": "validation",
+      "user": 11918
+    },
+    {
+      "item": 6866,
+      "from": "validation",
+      "user": 5826
+    },
+    {
+      "item": 6868,
+      "from": "test",
+      "user": 5494
+    },
+    {
+      "item": 6909,
+      "from": "test",
+      "user": 14891
+    },
+    {
+      "item": 6920,
+      "from": "test",
+      "user": 14550
+    },
+    {
+      "item": 7022,
+      "from": "test",
+      "user": 8982
+    },
+    {
+      "item": 7055,
+      "from": "test",
+      "user": 9652
+    },
+    {
+      "item": 7075,
+      "from": "test",
+      "user": 8034
+    },
+    {
+      "item": 7107,
+      "from": "validation",
+      "user": 9468
+    },
+    {
+      "item": 7211,
+      "from": "validation",
+      "user": 15015
+    },
+    {
+      "item": 7298,
+      "from": "test",
+      "user": 1916
+    },
+    {
+      "item": 7307,
+      "from": "test",
+      "user": 4134
+    },
+    {
+      "item": 7361,
+      "from": "validation",
+      "user": 12790
+    },
+    {
+      "item": 7449,
+      "from": "validation",
+      "user": 11859
+    },
+    {
+      "item": 7458,
+      "from": "test",
+      "user": 15860
+    },
+    {
+      "item": 7479,
+      "from": "test",
+      "user": 2936
+    },
+    {
+      "item": 7506,
+      "from": "validation",
+      "user": 12900
+    },
+    {
+      "item": 7510,
+      "from": "test",
+      "user": 3534
+    },
+    {
+      "item": 7563,
+      "from": "validation",
+      "user": 11969
+    },
+    {
+      "item": 7564,
+      "from": "validation",
+      "user": 9778
+    },
+    {
+      "item": 7567,
+      "from": "validation",
+      "user": 13631
+    },
+    {
+      "item": 7591,
+      "from": "validation",
+      "user": 2442
+    },
+    {
+      "item": 7605,
+      "from": "test",
+      "user": 7854
+    },
+    {
+      "item": 7613,
+      "from": "test",
+      "user": 14727
+    },
+    {
+      "item": 7681,
+      "from": "test",
+      "user": 6377
+    },
+    {
+      "item": 7734,
+      "from": "validation",
+      "user": 6665
+    },
+    {
+      "item": 7742,
+      "from": "validation",
+      "user": 12161
+    },
+    {
+      "item": 7768,
+      "from": "validation",
+      "user": 11278
+    },
+    {
+      "item": 7805,
+      "from": "test",
+      "user": 16218
+    },
+    {
+      "item": 7812,
+      "from": "validation",
+      "user": 2856
+    },
+    {
+      "item": 7957,
+      "from": "test",
+      "user": 7533
+    },
+    {
+      "item": 7959,
+      "from": "test",
+      "user": 5399
+    },
+    {
+      "item": 7988,
+      "from": "test",
+      "user": 5428
+    },
+    {
+      "item": 8023,
+      "from": "validation",
+      "user": 815
+    },
+    {
+      "item": 8027,
+      "from": "validation",
+      "user": 7854
+    },
+    {
+      "item": 8054,
+      "from": "test",
+      "user": 12763
+    },
+    {
+      "item": 8060,
+      "from": "test",
+      "user": 12429
+    },
+    {
+      "item": 8072,
+      "from": "validation",
+      "user": 3051
+    },
+    {
+      "item": 8073,
+      "from": "test",
+      "user": 8192
+    },
+    {
+      "item": 8103,
+      "from": "validation",
+      "user": 8154
+    },
+    {
+      "item": 8115,
+      "from": "test",
+      "user": 15727
+    },
+    {
+      "item": 8119,
+      "from": "test",
+      "user": 8681
+    },
+    {
+      "item": 8151,
+      "from": "validation",
+      "user": 12114
+    },
+    {
+      "item": 8224,
+      "from": "test",
+      "user": 1660
+    },
+    {
+      "item": 8276,
+      "from": "validation",
+      "user": 13806
+    },
+    {
+      "item": 8293,
+      "from": "validation",
+      "user": 12227
+    },
+    {
+      "item": 8324,
+      "from": "validation",
+      "user": 7435
+    },
+    {
+      "item": 8332,
+      "from": "validation",
+      "user": 13241
+    },
+    {
+      "item": 8343,
+      "from": "validation",
+      "user": 16153
+    },
+    {
+      "item": 8377,
+      "from": "test",
+      "user": 12945
+    },
+    {
+      "item": 8386,
+      "from": "validation",
+      "user": 14603
+    },
+    {
+      "item": 8463,
+      "from": "test",
+      "user": 9122
+    },
+    {
+      "item": 8497,
+      "from": "validation",
+      "user": 1173
+    },
+    {
+      "item": 8538,
+      "from": "validation",
+      "user": 7919
+    },
+    {
+      "item": 8545,
+      "from": "validation",
+      "user": 2965
+    },
+    {
+      "item": 8557,
+      "from": "validation",
+      "user": 1377
+    },
+    {
+      "item": 8639,
+      "from": "test",
+      "user": 7261
+    },
+    {
+      "item": 8681,
+      "from": "validation",
+      "user": 15535
+    },
+    {
+      "item": 8728,
+      "from": "validation",
+      "user": 10314
+    },
+    {
+      "item": 8753,
+      "from": "test",
+      "user": 5610
+    },
+    {
+      "item": 8761,
+      "from": "test",
+      "user": 3863
+    },
+    {
+      "item": 8796,
+      "from": "test",
+      "user": 7211
+    },
+    {
+      "item": 8846,
+      "from": "validation",
+      "user": 12070
+    },
+    {
+      "item": 8882,
+      "from": "validation",
+      "user": 4887
+    },
+    {
+      "item": 8887,
+      "from": "validation",
+      "user": 2763
+    },
+    {
+      "item": 8899,
+      "from": "validation",
+      "user": 4082
+    },
+    {
+      "item": 8906,
+      "from": "test",
+      "user": 8358
+    },
+    {
+      "item": 8941,
+      "from": "test",
+      "user": 10665
+    },
+    {
+      "item": 8945,
+      "from": "test",
+      "user": 16168
+    },
+    {
+      "item": 9021,
+      "from": "validation",
+      "user": 484
+    },
+    {
+      "item": 9025,
+      "from": "test",
+      "user": 4891
+    },
+    {
+      "item": 9065,
+      "from": "validation",
+      "user": 7379
+    },
+    {
+      "item": 9077,
+      "from": "validation",
+      "user": 5741
+    },
+    {
+      "item": 9099,
+      "from": "validation",
+      "user": 2968
+    },
+    {
+      "item": 9104,
+      "from": "validation",
+      "user": 8982
+    },
+    {
+      "item": 9107,
+      "from": "test",
+      "user": 3928
+    },
+    {
+      "item": 9108,
+      "from": "test",
+      "user": 7191
+    },
+    {
+      "item": 9116,
+      "from": "validation",
+      "user": 8336
+    },
+    {
+      "item": 9117,
+      "from": "validation",
+      "user": 1988
+    },
+    {
+      "item": 9152,
+      "from": "validation",
+      "user": 1033
+    },
+    {
+      "item": 9183,
+      "from": "validation",
+      "user": 14740
+    },
+    {
+      "item": 9188,
+      "from": "test",
+      "user": 5347
+    },
+    {
+      "item": 9202,
+      "from": "test",
+      "user": 2179
+    },
+    {
+      "item": 9220,
+      "from": "validation",
+      "user": 14266
+    },
+    {
+      "item": 9226,
+      "from": "validation",
+      "user": 9363
+    },
+    {
+      "item": 9236,
+      "from": "validation",
+      "user": 10922
+    },
+    {
+      "item": 9244,
+      "from": "test",
+      "user": 12762
+    },
+    {
+      "item": 9284,
+      "from": "test",
+      "user": 2965
+    },
+    {
+      "item": 9334,
+      "from": "validation",
+      "user": 8112
+    },
+    {
+      "item": 9385,
+      "from": "test",
+      "user": 4096
+    },
+    {
+      "item": 9405,
+      "from": "validation",
+      "user": 4583
+    },
+    {
+      "item": 9427,
+      "from": "validation",
+      "user": 14363
+    },
+    {
+      "item": 9435,
+      "from": "validation",
+      "user": 1719
+    },
+    {
+      "item": 9451,
+      "from": "validation",
+      "user": 2905
+    },
+    {
+      "item": 9470,
+      "from": "test",
+      "user": 7112
+    },
+    {
+      "item": 9492,
+      "from": "test",
+      "user": 13244
+    },
+    {
+      "item": 9505,
+      "from": "validation",
+      "user": 10167
+    },
+    {
+      "item": 9537,
+      "from": "validation",
+      "user": 4985
+    },
+    {
+      "item": 9538,
+      "from": "validation",
+      "user": 3946
+    },
+    {
+      "item": 9642,
+      "from": "test",
+      "user": 15023
+    },
+    {
+      "item": 9680,
+      "from": "test",
+      "user": 6384
+    },
+    {
+      "item": 9694,
+      "from": "validation",
+      "user": 5055
+    },
+    {
+      "item": 9704,
+      "from": "test",
+      "user": 14323
+    },
+    {
+      "item": 9765,
+      "from": "test",
+      "user": 13567
+    },
+    {
+      "item": 9783,
+      "from": "validation",
+      "user": 4517
+    },
+    {
+      "item": 9890,
+      "from": "test",
+      "user": 12090
+    },
+    {
+      "item": 9935,
+      "from": "test",
+      "user": 4180
+    },
+    {
+      "item": 9954,
+      "from": "validation",
+      "user": 6715
+    },
+    {
+      "item": 9975,
+      "from": "validation",
+      "user": 6441
+    },
+    {
+      "item": 9979,
+      "from": "validation",
+      "user": 3480
+    },
+    {
+      "item": 9994,
+      "from": "test",
+      "user": 14685
+    },
+    {
+      "item": 9999,
+      "from": "validation",
+      "user": 2062
+    },
+    {
+      "item": 10016,
+      "from": "validation",
+      "user": 14915
+    },
+    {
+      "item": 10023,
+      "from": "test",
+      "user": 1285
+    },
+    {
+      "item": 10032,
+      "from": "validation",
+      "user": 14552
+    },
+    {
+      "item": 10052,
+      "from": "test",
+      "user": 13144
+    },
+    {
+      "item": 10080,
+      "from": "test",
+      "user": 3345
+    },
+    {
+      "item": 10129,
+      "from": "test",
+      "user": 11935
+    },
+    {
+      "item": 10155,
+      "from": "validation",
+      "user": 10314
+    },
+    {
+      "item": 10177,
+      "from": "validation",
+      "user": 4752
+    },
+    {
+      "item": 10196,
+      "from": "validation",
+      "user": 2498
+    },
+    {
+      "item": 10247,
+      "from": "validation",
+      "user": 16060
+    },
+    {
+      "item": 10252,
+      "from": "test",
+      "user": 2809
+    },
+    {
+      "item": 10268,
+      "from": "validation",
+      "user": 540
+    },
+    {
+      "item": 10299,
+      "from": "test",
+      "user": 916
+    },
+    {
+      "item": 10317,
+      "from": "validation",
+      "user": 4152
+    },
+    {
+      "item": 10324,
+      "from": "test",
+      "user": 4255
+    },
+    {
+      "item": 10327,
+      "from": "test",
+      "user": 11517
+    },
+    {
+      "item": 10349,
+      "from": "validation",
+      "user": 15060
+    },
+    {
+      "item": 10358,
+      "from": "validation",
+      "user": 6111
+    },
+    {
+      "item": 10381,
+      "from": "validation",
+      "user": 5465
+    },
+    {
+      "item": 10430,
+      "from": "validation",
+      "user": 8995
+    },
+    {
+      "item": 10439,
+      "from": "validation",
+      "user": 8558
+    },
+    {
+      "item": 10451,
+      "from": "validation",
+      "user": 6508
+    },
+    {
+      "item": 10473,
+      "from": "test",
+      "user": 4671
+    },
+    {
+      "item": 10491,
+      "from": "validation",
+      "user": 13052
+    },
+    {
+      "item": 10501,
+      "from": "test",
+      "user": 14116
+    },
+    {
+      "item": 10502,
+      "from": "test",
+      "user": 9243
+    },
+    {
+      "item": 10508,
+      "from": "validation",
+      "user": 4904
+    },
+    {
+      "item": 10567,
+      "from": "validation",
+      "user": 9499
+    },
+    {
+      "item": 10579,
+      "from": "test",
+      "user": 6126
+    },
+    {
+      "item": 10604,
+      "from": "test",
+      "user": 14262
+    },
+    {
+      "item": 10636,
+      "from": "test",
+      "user": 1252
+    },
+    {
+      "item": 10641,
+      "from": "validation",
+      "user": 15334
+    },
+    {
+      "item": 10669,
+      "from": "test",
+      "user": 4445
+    },
+    {
+      "item": 10735,
+      "from": "validation",
+      "user": 15426
+    },
+    {
+      "item": 10752,
+      "from": "test",
+      "user": 3737
+    },
+    {
+      "item": 10773,
+      "from": "test",
+      "user": 1449
+    },
+    {
+      "item": 10776,
+      "from": "validation",
+      "user": 11068
+    },
+    {
+      "item": 10790,
+      "from": "validation",
+      "user": 15069
+    },
+    {
+      "item": 10896,
+      "from": "validation",
+      "user": 4891
+    },
+    {
+      "item": 10905,
+      "from": "test",
+      "user": 9138
+    },
+    {
+      "item": 10947,
+      "from": "validation",
+      "user": 13937
+    },
+    {
+      "item": 10974,
+      "from": "validation",
+      "user": 10812
+    },
+    {
+      "item": 10991,
+      "from": "validation",
+      "user": 3334
+    },
+    {
+      "item": 11057,
+      "from": "test",
+      "user": 11652
+    },
+    {
+      "item": 11114,
+      "from": "test",
+      "user": 452
+    },
+    {
+      "item": 11120,
+      "from": "validation",
+      "user": 9499
+    },
+    {
+      "item": 11122,
+      "from": "test",
+      "user": 15650
+    },
+    {
+      "item": 11136,
+      "from": "test",
+      "user": 6386
+    },
+    {
+      "item": 11159,
+      "from": "validation",
+      "user": 9094
+    },
+    {
+      "item": 11172,
+      "from": "test",
+      "user": 9627
+    },
+    {
+      "item": 11177,
+      "from": "validation",
+      "user": 6712
+    },
+    {
+      "item": 11223,
+      "from": "validation",
+      "user": 13010
+    },
+    {
+      "item": 11270,
+      "from": "validation",
+      "user": 15514
+    },
+    {
+      "item": 11293,
+      "from": "validation",
+      "user": 6256
+    },
+    {
+      "item": 11301,
+      "from": "validation",
+      "user": 3228
+    },
+    {
+      "item": 11317,
+      "from": "test",
+      "user": 12223
+    },
+    {
+      "item": 11335,
+      "from": "test",
+      "user": 6888
+    },
+    {
+      "item": 11336,
+      "from": "test",
+      "user": 9838
+    },
+    {
+      "item": 11365,
+      "from": "validation",
+      "user": 11110
+    },
+    {
+      "item": 11420,
+      "from": "test",
+      "user": 12984
+    },
+    {
+      "item": 11478,
+      "from": "validation",
+      "user": 11068
+    },
+    {
+      "item": 11489,
+      "from": "test",
+      "user": 7919
+    },
+    {
+      "item": 11518,
+      "from": "validation",
+      "user": 14102
+    },
+    {
+      "item": 11556,
+      "from": "test",
+      "user": 13768
+    },
+    {
+      "item": 11586,
+      "from": "validation",
+      "user": 12596
+    },
+    {
+      "item": 11621,
+      "from": "test",
+      "user": 9468
+    },
+    {
+      "item": 11656,
+      "from": "test",
+      "user": 7930
+    },
+    {
+      "item": 11665,
+      "from": "validation",
+      "user": 14968
+    },
+    {
+      "item": 11670,
+      "from": "validation",
+      "user": 12808
+    },
+    {
+      "item": 11722,
+      "from": "validation",
+      "user": 3928
+    },
+    {
+      "item": 11727,
+      "from": "test",
+      "user": 2949
+    },
+    {
+      "item": 11752,
+      "from": "validation",
+      "user": 12087
+    },
+    {
+      "item": 11753,
+      "from": "validation",
+      "user": 3522
+    },
+    {
+      "item": 11809,
+      "from": "validation",
+      "user": 6790
+    },
+    {
+      "item": 11816,
+      "from": "test",
+      "user": 5415
+    },
+    {
+      "item": 11846,
+      "from": "test",
+      "user": 1852
+    },
+    {
+      "item": 11882,
+      "from": "validation",
+      "user": 1147
+    },
+    {
+      "item": 11909,
+      "from": "validation",
+      "user": 4917
+    },
+    {
+      "item": 11987,
+      "from": "validation",
+      "user": 10449
+    },
+    {
+      "item": 12005,
+      "from": "test",
+      "user": 5238
+    },
+    {
+      "item": 12075,
+      "from": "test",
+      "user": 13147
+    },
+    {
+      "item": 12091,
+      "from": "test",
+      "user": 8121
+    },
+    {
+      "item": 12093,
+      "from": "validation",
+      "user": 14882
+    },
+    {
+      "item": 12111,
+      "from": "validation",
+      "user": 8681
+    },
+    {
+      "item": 12138,
+      "from": "validation",
+      "user": 7579
+    },
+    {
+      "item": 12145,
+      "from": "validation",
+      "user": 13523
+    },
+    {
+      "item": 12146,
+      "from": "test",
+      "user": 13908
+    },
+    {
+      "item": 12246,
+      "from": "validation",
+      "user": 5814
+    },
+    {
+      "item": 12259,
+      "from": "validation",
+      "user": 3334
+    },
+    {
+      "item": 12292,
+      "from": "test",
+      "user": 1243
+    },
+    {
+      "item": 12358,
+      "from": "test",
+      "user": 191
+    },
+    {
+      "item": 12391,
+      "from": "test",
+      "user": 9271
+    },
+    {
+      "item": 12406,
+      "from": "test",
+      "user": 2134
+    },
+    {
+      "item": 12429,
+      "from": "test",
+      "user": 14452
+    },
+    {
+      "item": 12431,
+      "from": "validation",
+      "user": 12057
+    },
+    {
+      "item": 12441,
+      "from": "validation",
+      "user": 14500
+    },
+    {
+      "item": 12470,
+      "from": "validation",
+      "user": 7431
+    },
+    {
+      "item": 12487,
+      "from": "validation",
+      "user": 1470
+    },
+    {
+      "item": 12495,
+      "from": "validation",
+      "user": 16063
+    },
+    {
+      "item": 12517,
+      "from": "test",
+      "user": 7407
+    },
+    {
+      "item": 12524,
+      "from": "test",
+      "user": 1147
+    },
+    {
+      "item": 12547,
+      "from": "validation",
+      "user": 12159
+    },
+    {
+      "item": 12548,
+      "from": "test",
+      "user": 11675
+    },
+    {
+      "item": 12589,
+      "from": "test",
+      "user": 7512
+    },
+    {
+      "item": 12639,
+      "from": "test",
+      "user": 8367
+    },
+    {
+      "item": 12661,
+      "from": "test",
+      "user": 14537
+    },
+    {
+      "item": 12669,
+      "from": "validation",
+      "user": 13316
+    },
+    {
+      "item": 12671,
+      "from": "validation",
+      "user": 11173
+    },
+    {
+      "item": 12698,
+      "from": "validation",
+      "user": 7069
+    },
+    {
+      "item": 12709,
+      "from": "test",
+      "user": 12161
+    },
+    {
+      "item": 12767,
+      "from": "validation",
+      "user": 13776
+    },
+    {
+      "item": 12803,
+      "from": "test",
+      "user": 14202
+    },
+    {
+      "item": 12808,
+      "from": "test",
+      "user": 15645
+    },
+    {
+      "item": 12813,
+      "from": "validation",
+      "user": 13550
+    },
+    {
+      "item": 12910,
+      "from": "test",
+      "user": 6786
+    },
+    {
+      "item": 12918,
+      "from": "validation",
+      "user": 1428
+    },
+    {
+      "item": 13002,
+      "from": "validation",
+      "user": 1145
+    },
+    {
+      "item": 13025,
+      "from": "validation",
+      "user": 3230
+    },
+    {
+      "item": 13045,
+      "from": "validation",
+      "user": 12398
+    },
+    {
+      "item": 13110,
+      "from": "validation",
+      "user": 3534
+    },
+    {
+      "item": 13178,
+      "from": "validation",
+      "user": 2436
+    },
+    {
+      "item": 13186,
+      "from": "validation",
+      "user": 8389
+    },
+    {
+      "item": 13235,
+      "from": "validation",
+      "user": 1243
+    },
+    {
+      "item": 13239,
+      "from": "validation",
+      "user": 5501
+    },
+    {
+      "item": 13316,
+      "from": "test",
+      "user": 6284
+    },
+    {
+      "item": 13356,
+      "from": "test",
+      "user": 3452
+    },
+    {
+      "item": 13388,
+      "from": "validation",
+      "user": 3330
+    },
+    {
+      "item": 13420,
+      "from": "validation",
+      "user": 1583
+    },
+    {
+      "item": 13436,
+      "from": "test",
+      "user": 7435
+    },
+    {
+      "item": 13461,
+      "from": "validation",
+      "user": 8649
+    },
+    {
+      "item": 13473,
+      "from": "validation",
+      "user": 12650
+    },
+    {
+      "item": 13506,
+      "from": "test",
+      "user": 3793
+    },
+    {
+      "item": 13511,
+      "from": "test",
+      "user": 10809
+    },
+    {
+      "item": 13533,
+      "from": "test",
+      "user": 16152
+    },
+    {
+      "item": 13562,
+      "from": "test",
+      "user": 5278
+    },
+    {
+      "item": 13639,
+      "from": "validation",
+      "user": 399
+    },
+    {
+      "item": 13651,
+      "from": "validation",
+      "user": 10373
+    },
+    {
+      "item": 13685,
+      "from": "test",
+      "user": 12497
+    },
+    {
+      "item": 13692,
+      "from": "validation",
+      "user": 15475
+    },
+    {
+      "item": 13708,
+      "from": "validation",
+      "user": 3786
+    },
+    {
+      "item": 13710,
+      "from": "validation",
+      "user": 1529
+    },
+    {
+      "item": 13711,
+      "from": "validation",
+      "user": 12298
+    },
+    {
+      "item": 13751,
+      "from": "validation",
+      "user": 504
+    },
+    {
+      "item": 13811,
+      "from": "validation",
+      "user": 4995
+    },
+    {
+      "item": 13836,
+      "from": "validation",
+      "user": 12228
+    },
+    {
+      "item": 13875,
+      "from": "test",
+      "user": 10624
+    },
+    {
+      "item": 13940,
+      "from": "test",
+      "user": 11624
+    },
+    {
+      "item": 13943,
+      "from": "validation",
+      "user": 1470
+    },
+    {
+      "item": 14004,
+      "from": "test",
+      "user": 2646
+    },
+    {
+      "item": 14028,
+      "from": "validation",
+      "user": 5936
+    },
+    {
+      "item": 14086,
+      "from": "test",
+      "user": 8704
+    },
+    {
+      "item": 14105,
+      "from": "validation",
+      "user": 3109
+    },
+    {
+      "item": 14141,
+      "from": "validation",
+      "user": 7351
+    },
+    {
+      "item": 14154,
+      "from": "validation",
+      "user": 16032
+    },
+    {
+      "item": 14183,
+      "from": "test",
+      "user": 7026
+    },
+    {
+      "item": 14192,
+      "from": "test",
+      "user": 5803
+    },
+    {
+      "item": 14242,
+      "from": "test",
+      "user": 9842
+    },
+    {
+      "item": 14268,
+      "from": "validation",
+      "user": 2985
+    }
+  ],
+  "invariants": {
+    "partition_exact": true,
+    "pairwise_disjoint": true,
+    "all_users_have_training_interactions": true,
+    "all_held_out_items_seen_in_training": true
+  },
+  "output_files": {
+    "train.txt": "a138c2e6760942c61141bc9bd3f3e48921e4bf21851e453fbce2db801072bc8d",
+    "validation.txt": "e32c0de493e52234a19883cabf03ca6b13359d17ee906f1d84ba89f1463f0f5f",
+    "test.txt": "0ae7b5515c6d1d6fe51aa34c0e07858d5cb8bebe169122509cd671a5b5eb17ac"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "algorithm_version": "amdrrec-training-only-graphs-v1",
+  "dataset": "amazon",
+  "train_file": {
+    "path": "D\\AMDRRec\\data\\train.txt",
+    "sha256": "5a0f39e7cf0a73db796434070e6890ca80a9b6edf91fbea39c621fbf4327be30",
+    "interactions": 161512
+  },
+  "shape": {
+    "users": 6170,
+    "items": 2753
+  },
+  "static_graphs": {
+    "ibi_processed.npz": {
+      "source_sha256": "14a85e1da7fae2640d72463bf5dd2dfa101348e64eeef2dd57bb16a65890dbca",
+      "output_sha256": "14a85e1da7fae2640d72463bf5dd2dfa101348e64eeef2dd57bb16a65890dbca"
+    },
+    "ici_processed.npz": {
+      "source_sha256": "504d9ad7e831bfc81db4aa9fcc29d7f5521273b9e70d23160c1526259089b6ac",
+      "output_sha256": "504d9ad7e831bfc81db4aa9fcc29d7f5521273b9e70d23160c1526259089b6ac"
+    },
+    "ivi.npz": {
+      "source_sha256": "9782ac993ba99c08036f06664cb001d25bc48dc8eef06e31f3be8562890ac601",
+      "output_sha256": "9782ac993ba99c08036f06664cb001d25bc48dc8eef06e31f3be8562890ac601"
+    }
+  },
+  "interaction_derived_graphs": {
+    "uiu_processed.npz": {
+      "output_sha256": "77a2385dfa935b951ebcb39dd81eeb6df0bbc0a5fda5d104bbebe892bfed1fa9",
+      "shape": [
+        6170,
+        6170
+      ],
+      "diagnostics": {
+        "edges": 185100,
+        "self_loops": 6170
+      }
+    },
+    "uibiu_processed.npz": {
+      "output_sha256": "945e0d9f18f08bf109dec2bf0962e80e1f0d7eb745088e2307ef80b269dfb173",
+      "shape": [
+        6170,
+        6170
+      ],
+      "diagnostics": {
+        "edges": 185100,
+        "self_loops": 61
+      }
+    },
+    "uiciu_processed.npz": {
+      "output_sha256": "831c8cee063cac1f4bdfb54bf0ac1b40a7b015a63e12ef57901c367b28f077e2",
+      "shape": [
+        6170,
+        6170
+      ],
+      "diagnostics": {
+        "edges": 185100,
+        "self_loops": 83
+      }
+    },
+    "pre_A.npz": {
+      "output_sha256": "764d7618adca353ab369095a460cbca68c0b59030761414604b10d20075ab2b3",
+      "shape": [
+        8923,
+        8923
+      ],
+      "diagnostics": {
+        "edges": 323024,
+        "self_loops": 0
+      }
+    }
+  }
+}

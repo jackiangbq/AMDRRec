@@ -1,0 +1,52 @@
+{
+  "algorithm_version": "amdrrec-training-only-graphs-v1",
+  "dataset": "douban-book",
+  "train_file": {
+    "path": "D\\AMDRRec\\data\\process\\train.txt",
+    "sha256": "85030606766f706ad8221524bf5093d6bd291c8c293468186607f742d756f77f",
+    "interactions": 639568
+  },
+  "shape": {
+    "users": 13024,
+    "items": 22347
+  },
+  "static_graphs": {
+    "uu.npz": {
+      "source_sha256": "e18f1508da2cb25fe59b4265f390dd983494dd80f0da05a5e4814a85687b106d",
+      "output_sha256": "e18f1508da2cb25fe59b4265f390dd983494dd80f0da05a5e4814a85687b106d"
+    },
+    "ugu_processed.npz": {
+      "source_sha256": "5bdf3cd03c51989e7d302fb69f31052e2cce30db7816670967586bd141699bf0",
+      "output_sha256": "5bdf3cd03c51989e7d302fb69f31052e2cce30db7816670967586bd141699bf0"
+    },
+    "ulu_processed.npz": {
+      "source_sha256": "00ccfce3439cb42313e5363d033132500a7adae36072de482e27b76f7a526f89",
+      "output_sha256": "00ccfce3439cb42313e5363d033132500a7adae36072de482e27b76f7a526f89"
+    },
+    "bab.npz": {
+      "source_sha256": "9e0e466d10c9d2b828a9a16df966faa10f1b0bbd64c8e064221654669c0ac557",
+      "output_sha256": "9e0e466d10c9d2b828a9a16df966faa10f1b0bbd64c8e064221654669c0ac557"
+    },
+    "byb_processed.npz": {
+      "source_sha256": "03e11e7f6d5323ed4e8ed1a2e4e5c2ec10d7d48d7f7d6d4bcc126a8227240a55",
+      "output_sha256": "03e11e7f6d5323ed4e8ed1a2e4e5c2ec10d7d48d7f7d6d4bcc126a8227240a55"
+    },
+    "bpb_processed.npz": {
+      "source_sha256": "921193873a8b099eb5bcc1bc4836d8b42dda577b49bec20cc233a8945f723486",
+      "output_sha256": "921193873a8b099eb5bcc1bc4836d8b42dda577b49bec20cc233a8945f723486"
+    }
+  },
+  "interaction_derived_graphs": {
+    "pre_A.npz": {
+      "output_sha256": "0cea84009b6b630cbf567ae242ac16e5ff1f0253b78a0bb3b060c342c3e203c4",
+      "shape": [
+        35371,
+        35371
+      ],
+      "diagnostics": {
+        "edges": 1279136,
+        "self_loops": 0
+      }
+    }
+  }
+}

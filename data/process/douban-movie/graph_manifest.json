@@ -1,0 +1,60 @@
+{
+  "algorithm_version": "amdrrec-training-only-graphs-v1",
+  "dataset": "douban-movie",
+  "train_file": {
+    "path": "D\\AMDRRec\\data\\process\\douban-movie\\train.txt",
+    "sha256": "0ff4198843856b3d6f1cb9745e48f336acefaedb70628fa9ffc45ffb86e5b567",
+    "interactions": 858952
+  },
+  "shape": {
+    "users": 13367,
+    "items": 12677
+  },
+  "static_graphs": {
+    "uuuuu.npz": {
+      "source_sha256": "53adcc7a0a44ed03eb2ba81b154c9d5a2f35727714e899f448c0433d7b43c02c",
+      "output_sha256": "53adcc7a0a44ed03eb2ba81b154c9d5a2f35727714e899f448c0433d7b43c02c"
+    },
+    "ugu_processed.npz": {
+      "source_sha256": "4bf3dd01ff1a9dde9e4f7d785812b5ca36cc7b360e441102ea275e278e57d6e5",
+      "output_sha256": "4bf3dd01ff1a9dde9e4f7d785812b5ca36cc7b360e441102ea275e278e57d6e5"
+    },
+    "mam.npz": {
+      "source_sha256": "176b7c2ef04d9fc256b3b2f0f9af068e2f1147b2b563f72141a97ddbc1d2fb0e",
+      "output_sha256": "176b7c2ef04d9fc256b3b2f0f9af068e2f1147b2b563f72141a97ddbc1d2fb0e"
+    },
+    "mdm.npz": {
+      "source_sha256": "4679fc49848a7e1ab52b1f967ab5a20242d91d1f212ee490c78672d48ed4a655",
+      "output_sha256": "4679fc49848a7e1ab52b1f967ab5a20242d91d1f212ee490c78672d48ed4a655"
+    },
+    "mtm_processed.npz": {
+      "source_sha256": "166848dc9a44fb338c5af0b4a7def9c2413125ef64b7bcc0827cc373ff29f820",
+      "output_sha256": "166848dc9a44fb338c5af0b4a7def9c2413125ef64b7bcc0827cc373ff29f820"
+    }
+  },
+  "interaction_derived_graphs": {
+    "umu_processed.npz": {
+      "output_sha256": "fe9c6f33d634613cacc4b95840dfb70d3070aa610354303dbc96323e43e687b6",
+      "shape": [
+        13367,
+        13367
+      ],
+      "diagnostics": {
+        "rows_below_top_k": 101,
+        "edges": 266323,
+        "self_loops": 9289
+      }
+    },
+    "pre_A.npz": {
+      "output_sha256": "c6496e2b513166b4f6857e7cd50fb355ff1eff0b368bf632325d1fd2fec5d9bc",
+      "shape": [
+        26044,
+        26044
+      ],
+      "diagnostics": {
+        "edges": 1717904,
+        "self_loops": 0
+      }
+    }
+  }
+}

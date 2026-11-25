@@ -1,0 +1,201 @@
+{
+  "algorithm_version": "amdrrec-user-aware-8-1-1-v1",
+  "seed": 2024,
+  "source_directory": "D\\AMDRRec\\data\\movielens-1m",
+  "source_files": {
+    "train.txt": "4c88147bb8fde056b437d51b28b3d5f4ac699d0b3addb81767972c6db40ef717",
+    "test.txt": "c29d535498965beaccf332f9bbbd2645b2b0c42863456df6999d41590568adf1"
+  },
+  "total_users": 6040,
+  "total_interactions": 1000209,
+  "users_by_total_count": {
+    "eq_1": 0,
+    "eq_2": 0,
+    "ge_3": 6040
+  },
+  "splits": {
+    "train": {
+      "users_with_interactions": 6040,
+      "interactions": 805473,
+      "unique_items": 3706
+    },
+    "validation": {
+      "users_with_interactions": 6040,
+      "interactions": 97368,
+      "unique_items": 3312
+    },
+    "test": {
+      "users_with_interactions": 6040,
+      "interactions": 97368,
+      "unique_items": 3307
+    }
+  },
+  "actual_interaction_ratios": {
+    "train": 0.80530469,
+    "validation": 0.09734765,
+    "test": 0.09734765
+  },
+  "item_coverage_repairs": [
+    {
+      "item": 225,
+      "from": "validation",
+      "user": 4100
+    },
+    {
+      "item": 310,
+      "from": "test",
+      "user": 3617
+    },
+    {
+      "item": 395,
+      "from": "validation",
+      "user": 3841
+    },
+    {
+      "item": 578,
+      "from": "test",
+      "user": 1469
+    },
+    {
+      "item": 657,
+      "from": "test",
+      "user": 453
+    },
+    {
+      "item": 757,
+      "from": "test",
+      "user": 1068
+    },
+    {
+      "item": 762,
+      "from": "validation",
+      "user": 4168
+    },
+    {
+      "item": 871,
+      "from": "validation",
+      "user": 3233
+    },
+    {
+      "item": 1114,
+      "from": "test",
+      "user": 1469
+    },
+    {
+      "item": 1117,
+      "from": "test",
+      "user": 1469
+    },
+    {
+      "item": 1315,
+      "from": "test",
+      "user": 3951
+    },
+    {
+      "item": 1385,
+      "from": "test",
+      "user": 1469
+    },
+    {
+      "item": 1629,
+      "from": "validation",
+      "user": 1469
+    },
+    {
+      "item": 1794,
+      "from": "validation",
+      "user": 411
+    },
+    {
+      "item": 1885,
+      "from": "validation",
+      "user": 2992
+    },
+    {
+      "item": 2038,
+      "from": "test",
+      "user": 2105
+    },
+    {
+      "item": 2213,
+      "from": "test",
+      "user": 4168
+    },
+    {
+      "item": 2234,
+      "from": "test",
+      "user": 1469
+    },
+    {
+      "item": 2276,
+      "from": "validation",
+      "user": 1469
+    },
+    {
+      "item": 2483,
+      "from": "test",
+      "user": 1469
+    },
+    {
+      "item": 2542,
+      "from": "test",
+      "user": 5219
+    },
+    {
+      "item": 2555,
+      "from": "test",
+      "user": 868
+    },
+    {
+      "item": 2591,
+      "from": "validation",
+      "user": 2062
+    },
+    {
+      "item": 3130,
+      "from": "validation",
+      "user": 1226
+    },
+    {
+      "item": 3279,
+      "from": "test",
+      "user": 45
+    },
+    {
+      "item": 3296,
+      "from": "validation",
+      "user": 2131
+    },
+    {
+      "item": 3322,
+      "from": "validation",
+      "user": 5333
+    },
+    {
+      "item": 3336,
+      "from": "validation",
+      "user": 4168
+    },
+    {
+      "item": 3352,
+      "from": "validation",
+      "user": 1864
+    },
+    {
+      "item": 3606,
+      "from": "validation",
+      "user": 5850
+    }
+  ],
+  "invariants": {
+    "partition_exact": true,
+    "pairwise_disjoint": true,
+    "all_users_have_training_interactions": true,
+    "all_held_out_items_seen_in_training": true
+  },
+  "output_files": {
+    "train.txt": "9c1d238071bffbd9fe4b9d1b1cfff7cd9131f5359e91e6b0402742364744578a",
+    "validation.txt": "f97f1138eb985238299cd99ebcb4ad7d54c1e4e3066cd6ef66e14ec090ff0321",
+    "test.txt": "293fdad8bc35417e9fae1a8329edcb6971bbe87aaafe7bd6109fcb3f294d8608"
+  }
+}

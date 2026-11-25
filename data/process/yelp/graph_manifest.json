@@ -1,0 +1,68 @@
+{
+  "algorithm_version": "amdrrec-training-only-graphs-v1",
+  "dataset": "yelp",
+  "train_file": {
+    "path": "D\\AMDRRec\\data\\process\\yelp\\train.txt",
+    "sha256": "a138c2e6760942c61141bc9bd3f3e48921e4bf21851e453fbce2db801072bc8d",
+    "interactions": 158877
+  },
+  "shape": {
+    "users": 16239,
+    "items": 14284
+  },
+  "static_graphs": {
+    "uu.npz": {
+      "source_sha256": "07347bcd8ca7bb0a22a68662e94b047bffd54df2c592bb3526bf1e35228ce859",
+      "output_sha256": "07347bcd8ca7bb0a22a68662e94b047bffd54df2c592bb3526bf1e35228ce859"
+    },
+    "ucu_processed.npz": {
+      "source_sha256": "9caca384fa85887e5885d53f74ee949bb3e782c89d807fc5606f086538887599",
+      "output_sha256": "9caca384fa85887e5885d53f74ee949bb3e782c89d807fc5606f086538887599"
+    },
+    "bcib_processed.npz": {
+      "source_sha256": "9fd5c52248dc1443a114351ff37a1a1d0dd1ccbc347394070a9109f4a23482c7",
+      "output_sha256": "9fd5c52248dc1443a114351ff37a1a1d0dd1ccbc347394070a9109f4a23482c7"
+    },
+    "bcab_processed.npz": {
+      "source_sha256": "eab2f2df2367e05a0cc532e6d2c95f22937d608e1b45f7841d57d79a6d8f6c77",
+      "output_sha256": "eab2f2df2367e05a0cc532e6d2c95f22937d608e1b45f7841d57d79a6d8f6c77"
+    }
+  },
+  "interaction_derived_graphs": {
+    "ubu_processed.npz": {
+      "output_sha256": "4482c7bbce9b5281e569191559dc36af54e4d9a729d8ca5907a6f6688ca91621",
+      "shape": [
+        16239,
+        16239
+      ],
+      "diagnostics": {
+        "rows_below_top_k": 2339,
+        "edges": 298480,
+        "self_loops": 11726
+      }
+    },
+    "bub_processed.npz": {
+      "output_sha256": "aa645e930c614df422eacc0694c9c4b396af67b81c56d0b8bc0e7f2c8cf29eba",
+      "shape": [
+        14284,
+        14284
+      ],
+      "diagnostics": {
+        "rows_below_top_k": 1478,
+        "edges": 272035,
+        "self_loops": 12949
+      }
+    },
+    "pre_A.npz": {
+      "output_sha256": "6e5aaba2de4e08d756148e524043661fbbce27700975229e96ea57ea5a119a54",
+      "shape": [
+        30523,
+        30523
+      ],
+      "diagnostics": {
+        "edges": 317754,
+        "self_loops": 0
+      }
+    }
+  }
+}

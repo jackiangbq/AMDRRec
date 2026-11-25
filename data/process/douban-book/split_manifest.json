@@ -1,0 +1,50 @@
+{
+  "algorithm_version": "amdrrec-user-aware-8-1-1-v1",
+  "seed": 2024,
+  "source_directory": "D\\AMDRRec\\data\\douban-book",
+  "source_files": {
+    "train.txt": "2d0b5531f4bcddc9863607f00fb940858372a89975c22a0a8284cf4e7275b656",
+    "test.txt": "91750c0250f53faf35c5d3d9ca2d40cc73d2132f8acec9d1ff8c1915f3f0c769"
+  },
+  "total_users": 13024,
+  "total_interactions": 792062,
+  "users_by_total_count": {
+    "eq_1": 785,
+    "eq_2": 540,
+    "ge_3": 11699
+  },
+  "splits": {
+    "train": {
+      "users_with_interactions": 13024,
+      "interactions": 639568,
+      "unique_items": 22347
+    },
+    "validation": {
+      "users_with_interactions": 11699,
+      "interactions": 75977,
+      "unique_items": 16940
+    },
+    "test": {
+      "users_with_interactions": 12239,
+      "interactions": 76517,
+      "unique_items": 16929
+    }
+  },
+  "actual_interaction_ratios": {
+    "train": 0.80747214,
+    "validation": 0.09592305,
+    "test": 0.09660481
+  },
+  "item_coverage_repairs": [],
+  "invariants": {
+    "partition_exact": true,
+    "pairwise_disjoint": true,
+    "all_users_have_training_interactions": true,
+    "all_held_out_items_seen_in_training": true
+  },
+  "output_files": {
+    "train.txt": "85030606766f706ad8221524bf5093d6bd291c8c293468186607f742d756f77f",
+    "validation.txt": "f45a8cb64dcf2d8e9e597bf5d4f5a6af4e8da8f5ac627abdd8887273cc22f352",
+    "test.txt": "2d582c3b657abd3efe76cd2b6895469afbc7058160d57ba19f3932ef1bc273f3"
+  }
+}
